@@ -1,6 +1,4 @@
-import java.io.*;
-
-class start {
+class basics {
     public static void main(String[] args) {
         int x = 12;
         long y = 123456789;
@@ -8,4 +6,4 @@ class start {
         String s = "adil";
         System.out.println(x + " " + y + " " + z + " " + s);
     }
-}
+} 
