@@ -1,4 +1,4 @@
-class basics {
+class Basics {
     public static void main(String[] args) {
         int x = 12;
         long y = 123456789;
