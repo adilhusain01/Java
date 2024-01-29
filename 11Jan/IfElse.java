@@ -1,13 +1,26 @@
+import java.util.Scanner;
+
 public class IfElse {
     public static void main(String[] args) {
-        int x=20;
+        Scanner in = new Scanner(System.in);
 
-        if(x>20){
-            System.out.println("Big brother");
-        } else if(x>10 && x<=20){
-            System.out.println("Mid brother");
-        } else {
-            System.out.println("Lil brother");
+        char gender = in.next().charAt(0);
+        int age = in.nextInt();
+
+        if(gender == 'M'){
+            if(age>=18 && age<30){
+                System.out.println("Can Vote");
+            }else {
+                System.out.println("Sorry");
+            }
+        }else if(gender == 'F'){
+            if(age>=16){
+                System.out.println("Can Vote");
+            }else{
+                System.out.println("Sorry");
+            }
+        }else{
+            System.out.println("Wrong gender input");
         }
-    }
+}
 }
