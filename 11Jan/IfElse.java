@@ -22,5 +22,7 @@ public class IfElse {
         }else{
             System.out.println("Wrong gender input");
         }
+
+        in.close();
 }
 }

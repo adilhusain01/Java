@@ -11,5 +11,7 @@ class forLoop{
                 System.out.println(x + " * " + i + " = " + x*i);
             }
         }
+
+        in.close();
     }
 }

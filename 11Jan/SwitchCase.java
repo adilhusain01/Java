@@ -19,5 +19,7 @@ public class SwitchCase {
                 System.out.println("We dont know");
                 break;
         }
+
+        in.close();
     }
 }
