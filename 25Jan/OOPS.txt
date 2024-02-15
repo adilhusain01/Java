@@ -1,0 +1,9 @@
+Class - BluePrint => Variables and Methods
+Object -  from blueprint made Real world identity
+
+Demo obj1 = new Demo();
+
+Demo -> class name
+obj1 -> object name
+new -> HEAP MEMORY new object creation
+Demo() -> constructor
