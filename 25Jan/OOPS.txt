@@ -2,7 +2,8 @@ Class - BluePrint => Variables and Methods
 Object -  from blueprint made Real world identity
 Abstraction - data hiding. be it member variable or method using private
 Encapsulation - wrapping up data in a single unit
-Inheritance - parent to child using EXTEND keyword
+Inheritance - parent to child using EXTEND keyword => Single Inheritance
+                                                      Multiple Inheritance
 
 Demo obj1 = new Demo();
 
